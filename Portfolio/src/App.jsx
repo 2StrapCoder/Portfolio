@@ -8,8 +8,6 @@ import Portfolio from './components/portfolio';
 
 import Contact from './components/contact';
 
-import Resume from './components/resume';
-
 import Footer from './components/footer';
 
 import './App.css';
@@ -23,7 +21,6 @@ function App() {
                     <Route path="/"  element={<About />} />
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="/contact" element={<Contact />}  />
-                    <Route path="/resume" element={<Resume />} />
                 </Routes>
                 <Footer />
             </div>
