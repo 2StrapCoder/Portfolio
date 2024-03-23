@@ -1,42 +1,78 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif; /* A more modern font */
+  background-color: #f4f4f4; /* A lighter background for a modern look */
+  background-image: url(./assets/Background.png);
+  background-size: cover;
+  color: #333; /* Dark grey text for better readability */
+}
+
+header {
+  background-color: #007bff; /* A more subtle blue */
+  color: #fff;
+  padding: 20px;
   text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding subtle shadow for depth */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+nav a {
+  color: #fff;
+  margin: 0 15px; /* More space between links */
+  text-decoration: none;
+  padding: 10px 15px; /* More padding for a better click area */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a:hover, nav a.active {
+  background-color: #0056b3; /* A darker shade of blue for hover */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+section {
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  background-color: #fff; /* White background for the section */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); /* Shadow for depth */
+  border-radius: 8px; /* Rounded corners */
 }
 
-.card {
-  padding: 2em;
+footer {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Shadow at the top */
 }
 
-.read-the-docs {
-  color: #888;
+form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333; /* Matching text color with body */
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc; /* Lighter border */
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+form button {
+  background-color: #28a745; /* A green color for actions */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+form button:hover {
+  background-color: #218838; /* A darker shade of green for hover */
 }
