@@ -1,41 +1,41 @@
 body, html {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', sans-serif; /* A more modern font */
-  background-color: #f4f4f4; /* A lighter background for a modern look */
+  font-family: 'Segoe UI', sans-serif; 
+  background-color: #f4f4f4; 
   background-image: url(./assets/Background.png);
   background-size: cover;
-  color: #333; /* Dark grey text for better readability */
+  color: #333; 
 }
 
 header {
-  background-color: #007bff; /* A more subtle blue */
+  background-color: #007bff; 
   color: #fff;
   padding: 20px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding subtle shadow for depth */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 nav a {
   color: #fff;
-  margin: 0 15px; /* More space between links */
+  margin: 0 15px; 
   text-decoration: none;
-  padding: 10px 15px; /* More padding for a better click area */
+  padding: 10px 15px; 
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 nav a:hover, nav a.active {
-  background-color: #0056b3; /* A darker shade of blue for hover */
+  background-color: #0056b3; 
 }
 
 section {
   padding: 20px;
   margin: 10px;
   text-align: center;
-  background-color: #fff; /* White background for the section */
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); /* Shadow for depth */
-  border-radius: 8px; /* Rounded corners */
+  background-color: #fff; 
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); 
+  border-radius: 8px; 
 }
 
 footer {
@@ -47,32 +47,32 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Shadow at the top */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 form label {
   display: block;
   margin-bottom: 10px;
-  color: #333; /* Matching text color with body */
+  color: #333; 
 }
 
 form input, form textarea, form button {
   width: 100%;
   padding: 10px;
   margin: 5px 0;
-  border: 1px solid #ccc; /* Lighter border */
+  border: 1px solid #ccc; 
   border-radius: 5px;
   box-sizing: border-box; 
 }
 
 form button {
-  background-color: #28a745; /* A green color for actions */
+  background-color: #28a745; 
   color: white;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  transition: background-color 0.3s ease; 
 }
 
 form button:hover {
-  background-color: #218838; /* A darker shade of green for hover */
+  background-color: #218838; 
 }
